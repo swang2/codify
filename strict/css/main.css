@@ -1,0 +1,275 @@
+nav {
+    background-color: #F6F9F9;
+    padding: 25px 100px;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.cta {
+    text-align: center;
+    background-image: url(../img/bg1.png);
+    height: 800px;
+}
+
+.cta h1 {
+    color: #ffffff;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 225px;
+    margin-bottom: 60px;
+}
+
+.cta hr {
+    border-color: #15a4fa;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.cta p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 47px;
+    text-align: center;
+}
+
+.cta button {
+    background-color: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-top: 1px solid #15a4fa;
+    border-left: 1px solid #15a4fa;
+    border-radius: 2px;
+    padding: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cta a {
+    position: relative;
+    top: 100px;
+    color: #fff;
+}
+
+.info {
+    background-color: #F6F9F9;
+    padding: 50px;
+    text-align: center;
+}
+
+.info h2 {
+    color: #2d3950;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.info p {
+    width: 74%;
+    margin: 0 auto;
+    color: #999999;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.features {
+    padding-left: 13%;
+}
+
+.features .box {
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    margin: 5% 1%;
+    font-weight: 400;
+}
+
+.features .iconBox {
+    background: #1e5799;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(50%,#207cca), color-stop(50%,#2989d8), color-stop(100%,#7db9e8));
+    background: -webkit-linear-gradient(left, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%);
+    background: -webkit-linear-gradient(left, #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+    background: linear-gradient(to right, #1e5799 0%,#207cca 50%,#2989d8 50%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.iconBox i {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.box h4 {
+    color: #2d3950;
+    font-size: 22px;
+    margin-bottom: 3%;
+}
+
+.box p {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.work {
+    background-color: #f6f9f9;
+    text-align: center;
+    font-weight: 400;
+    padding: 50px 0;
+}
+
+.work h2 {
+    color: #2d3950;
+    font-size: 41px;
+    margin: 0;
+}
+
+.work p {
+    color: #909090;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.work .box {
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    margin: 2% 1% 0%;
+    font-weight: 400;
+}
+
+.work img {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    background-image: url(../img/bg2.png);
+    height: 500px;
+    background-position: 50%;
+    padding: 100px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #ffffff;
+    font-size: 41px;
+    font-weight: 400;
+    margin: 7% 0 0;
+}
+
+.contact p {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+form > input, form > textarea {
+    margin: 1% auto;
+    display: block;
+    width: 30%;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #f6f9f9;
+    color: #fff;
+}
+
+form > input, form > textarea {
+    margin: 1% auto;
+    display: block;
+    width: 30%;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid #f6f9f9;
+    color: #fff;
+}
+
+form div {
+    width: 40%;
+    margin: 0 auto;
+}
+
+form div span {
+    position: relative;
+    right: 40px;
+    top: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form div input {
+    border-radius: 25%;
+}
+
+form div button {
+    position: relative;
+    left: 35px;
+    top: 25px;
+    background-color: transparent;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    padding: 10px 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #F6F9F9;
+    padding: 10px;
+    height: 50px;
+    padding-left: 50px;
+}
+
+footer p {
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 75px;
+}
+
+.socialMedia {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 200px;
+    top: 17px;
+}
+
+.socialMedia a:first-child {
+    padding: 7px 9px;
+}
+
+.socialMedia a {
+    border-radius: 2px;
+    background-color: #15a4fa;
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+
+
+
+
+

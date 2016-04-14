@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background-color: #F9FDFF; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+    background-color: #FD7F00;
+    height: 72px;
+    color: white;
+    border-bottom: 8px solid #E0781A;
+}
+
+nav .logo {
+    position: relative;
+    top: 23px;
+    left: 70px;
+}
+
+.logo a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;  
+    font-size: 25px; 
+}
+
+.logo span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 25px;     
+}
+
+nav ul {
+    float: right;
+    position: relative;
+    top: -35px;
+    right: 70px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    width: 100%; 
+    display: inline-block;  
+}
+
+.left {
+    width: 40%;
+    float: left; 
+}
+
+.left img {
+    position: absolute;
+    left: 60px;
+    top: 250px;
+    width: 34%;
+}
+
+.right {
+    width: 60%;
+    float: right; 
+    padding-right: 20px;      
+}
+
+.right .orange-span {
+    color: #FD7F00;
+    font-weight: 700;
+}
+
+.gray {
+    height: 40px;
+    width: 250px;
+    background-color: #E6E6E6;
+    border: none;
+    position: relative;
+    top: -30px;
+    float: right;
+    right: 70px;
+    padding-left: 20px;  
+}
+
+.right h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 15px;
+    right: 25px;
+    font-size: 65px;
+    color: #FD7F00;
+    margin: 90px 0;
+}
+
+.right .blue-span {
+    color: #5DBCD2;
+    font-weight: 700;    
+}
+
+.right i {
+    position: absolute;
+    right: 102px;
+    top: 97px;
+    color: gray;    
+}
+
+.orange {
+    background-color: #FD7F00;
+    display: inline-block;
+    width: 40%;
+    color: white;
+    padding: 10px 20px;   
+    text-decoration: none;
+    text-align: center;
+    margin: 50px 20px 50px -24px;
+}
+
+.blue {
+    background-color: #5DBCD2;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px; 
+    text-decoration: none;
+    text-align: center;   
+    width: 40%;  
+    margin-left: 20px;    
+}
+
+footer {
+    background-color: #5DBCD2;
+    height: 72px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

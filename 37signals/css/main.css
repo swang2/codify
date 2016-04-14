@@ -1,0 +1,371 @@
+body {
+    font-family: 'Crimson Text', sans-serif;	
+}
+
+nav {
+	font-family: sans-serif;
+	height: 100px;
+}
+
+nav > ul {
+    float: right;
+    margin: 12px 18px;
+    padding: 10px 30px;
+}
+
+nav > ul > li {
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 5px;
+	padding: 5px;
+}
+
+nav > ul > li> a {
+	color: #369;
+	text-decoration: none;
+}
+
+.signin {
+	color: #18AFE0;
+
+}
+
+header {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;	
+	height: 190px;
+}
+
+header, section {
+    margin: 30px auto;
+    width: 825px;
+    display: block;
+}
+
+header h1 {
+    font-size: 58px;
+    line-height: 1em;
+    margin: 10px 0;
+    color: #232323;
+}
+
+header p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 10px 0;
+    color: #222;
+}
+
+.products {
+	text-align: center;
+	height: 320px;
+	padding-bottom: 30px;
+	margin: 0 285px;
+}
+
+.products a {
+    position: relative;
+    top: 40px;
+    left: 75px;
+    width: 160px;
+    margin: 15px 20px 5px;
+    float: left;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #EFEFEF;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+a {
+	color: #369;
+    font-family: 'Roboto', sans-serif;	
+}
+
+.products h3 {
+    font-size: 21px;
+    color: #369;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.products h3 span {
+	text-decoration: underline;
+}
+
+sup {
+    color: #999;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.products h4 {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #C00;
+	font-family: 'Roboto', sans-serif;
+}
+
+.products p {
+	color: #222;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin: 5px 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    background: white url('../img/img-hr.png') no-repeat scroll 50% 50%;
+    clear: both;
+    border: 0;
+    height: 20px;
+}
+
+.customers {
+    margin-bottom: 50px;
+    position: relative;
+    width: 800px;
+	text-align: center;  
+    letter-spacing: -1px;	  
+}
+
+.customers h2 {
+	color: #232323;
+    font-size: 48px;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.meet {
+    position: absolute;
+    left: -140px;
+    top: 70px;
+}
+
+.meet a:hover {
+    background-position: 0 100%;
+}
+
+.meet a {
+    display: block;
+    width: 143px;
+    height: 104px;
+    background: url('../img/img-customers.png') no-repeat 0 0;
+    text-indent: -1000em;
+}
+
+.customers p {
+    font-size: 22px;
+    line-height: 1.3em;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-top: 0;
+}
+
+.meet p {
+	font-size: 14px;
+    text-align: center;
+    color: #369;
+    margin: 0;
+}
+
+.arrow-left {
+    width: 69px;
+    height: 36px;
+    position: relative;
+    top: -70px;
+}
+
+.globe {
+	float: right;
+}
+
+.manifesto h2 {
+	font-size: 48px;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+    margin: 30px 0;
+}
+
+.column {
+	width: 380px;
+	margin-right: 40px;
+}
+
+.manifesto {
+    margin-bottom: 50px;
+    padding-left: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.manifesto h3 {
+    float: left;
+    font-size: 58px;
+    line-height: normal;
+    margin: -5px 15px 20px 0;
+    color: #CCC;	
+}
+
+.manifesto h4 {
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0;
+    color: #C00;
+    text-align: left;	
+}
+
+.manifesto p {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 12px;
+}	
+
+.column-end {
+	width: 380px;
+}
+
+.column, .column-end {
+    float: left;
+    color: #222;
+    /*font-size: 18px;*/
+    line-height: 1.5em;
+}
+
+.rework {
+	height: 500px;
+	position: relative;
+}
+
+.rework h2 {
+	font-size: 48px;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.book {
+	float: left;
+}
+
+.quotes {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.quotes h3 {
+    color: #888;
+    font-weight: normal;
+    font-family: "CrimsonRomanItalic", serif;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.quotes p {
+	font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.arrow-right {
+	position: absolute;
+	top: 130px;
+    right: 5px;
+}
+
+.crumple {
+	position: absolute;
+    top: 50px;
+    right: -125px;	
+}
+
+.crumple a {
+	text-decoration: none;
+}
+
+.crumple p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.offerings {
+    text-align: center;
+}
+
+.offerings h2 {
+    margin: 30px 0;
+    font-size: 48px;
+}
+
+.offerings h3 {
+    border-bottom: 1px solid #E8E8E8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #C00;
+    margin: 5px 0;
+}
+
+.offerings li {
+	list-style-type: none;
+	padding: 5px;
+	text-align: center;
+}
+
+.offerings a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
+    text-decoration: none;
+    font-family: 'Crimson Text', sans-serif;
+}
+
+.offerings small {
+    color: #666;
+    font-size: 12px;
+    font-family: 'Lucida Grande', sans-serif;
+}
+
+footer {
+    margin: 30px auto;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: 'Lucida Grande', sans-serif;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer li {
+	list-style-type: none;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+footer h3 {
+    font-size: 14px;
+    color: #C00;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer p {
+    font-size: 10px;
+    color: #999;
+    margin-top: 50px;	
+}
+
+
+
+

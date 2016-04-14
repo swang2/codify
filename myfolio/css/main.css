@@ -1,0 +1,276 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background: #02908B;
+    height: 60px;
+    position: fixed; 
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav > a {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+nav > a > span {
+    font-family: 'Open Sans', sans-serif;
+    color: #cfc91d;
+    text-align: left;
+}
+
+nav > ul {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+nav > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:focus {
+    color: #cfc91d;
+}
+
+header {
+    background-attachment: fixed;
+    background-image: url(../img/headerbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% 50%;
+    color: #fff;
+    height: 500px;
+    text-align: center;
+    padding-top: 15%; 
+    margin-left: -8px;
+    margin-right: -8px;     
+}
+
+header h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 72px;
+    margin: 0;
+    letter-spacing: 20px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+header img {
+    padding: 35px 0;
+}
+
+header a {
+    padding: 10px 35px;
+    color: #0B1016;
+    background-color: #CDC71D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    color: #7e8287;
+    line-height: 41px;
+    width: 70%;
+    margin: 0 auto;    
+}
+
+.about img {
+    margin: 15px 0;
+}
+
+.about > p {
+    color: #7e8287;
+    line-height: 41px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about > p > span {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.aboutBoxes {
+    color: #7e8287;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.aboutBox {
+    float: left;
+    width: 16%;
+    padding: 0 4%;
+    border-right: 1px solid black;
+    margin: 3% 0;
+}
+
+.aboutBox:last-child {
+    border: none;
+}
+
+.aboutBox i {
+    color: #02908B;
+}
+
+.service {
+    background: url(../img/service.png);
+    background-size: cover;
+    padding-left: 10%;
+    display: inline-block;
+    margin-left: -8px;
+    margin-right: -8px;       
+}
+
+.serviceWrapper {
+    width: 40%;
+}
+
+.service h2 {
+    color: #02918c;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.serviceBox h3 {
+    margin: 10px 0;
+}
+
+.serviceBox h6 {
+    margin: 10px 0;
+}
+
+.service img {
+    margin: 15px 0;
+}
+
+.service p {
+    color: #7e8287;
+    line-height: 41px;
+}
+
+.serviceBox {
+    float: left;
+    width: 40%;
+    color: #7e8287;
+}
+
+.serviceBox i {
+    color: #02908B;
+}
+
+.contact {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.contact h2 {
+    color: #02918c;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.contactForm {
+    background: #0B0B0B;
+    color: #7D8186;
+    padding: 50px 25px;
+}
+
+.contactForm input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #7D8186;
+    text-align: center;
+    width: 60%;
+    height: 30px;
+    font-size: 24px;
+    color: #7D8186;
+}
+
+.contactForm textarea {
+    background: transparent;
+    border: none;
+    border-top: 1px solid #7D8186;
+    border-bottom: 1px solid #7D8186;
+    text-align: center;
+    width: 60%;
+    font-size: 24px;
+    color: #7D8186;
+}
+
+.contactForm button {
+    clear: both;
+    border: none;
+    padding: 10px 35px;
+    color: #0B1016;
+    background-color: #CDC71D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    background: #000;
+}
+
+footer p {
+    color: #7e8287;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

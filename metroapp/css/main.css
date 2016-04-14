@@ -1,0 +1,371 @@
+body {
+    font-family: 'Teko', sans-serif;
+}
+
+nav {
+    background-color: #352d2f;
+    font-family: 'Titillium Web', sans-serif;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    margin: 0 -8px;  
+}
+
+nav > a.logo {
+    background-color: #f63c3c;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10%;
+    padding: 9px 10px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav > a.logo span:first-child {
+    position: relative;
+    left: 3px;
+}
+
+nav ul.sitenav {
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+}
+
+nav ul.sitenav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+nav ul.sitenav a {
+    color: #fff;
+    display: inline-block;
+    padding: 16px 20px;
+}
+
+nav li.active a {
+    border-bottom: 3px solid #fff;
+}
+
+section {
+    margin: 0 -8px;  
+}
+
+#intro {
+    background-color: #352d2f;
+    color: #fff;
+    min-height: 600px;
+    position: relative;
+    text-align: center; 
+    margin: 0 -8px;   
+}
+
+#intro h1 {
+    font-size: 80px;
+    letter-spacing: 10px;
+    margin: 0 auto;
+    padding: 15% 0 5%;
+    width: 60%;
+}
+
+#intro button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+#intro a {
+    bottom: 30px;
+    color: inherit;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+#intro p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#explore {
+    margin: 0 auto;
+    padding: 3% 0;
+    text-align: center;
+    width: 60%;
+}
+
+#explore h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    line-height: 30px;
+}
+
+#explore button {
+    background-color: #f63c3c;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+#projects {    
+    color: #fff;
+    height: 600px;
+}
+
+#projects .main-feature {
+    background-color: #f63c3c;
+    float: left;
+    height: 550px;
+    width: 50%;
+}
+
+.main-feature h4 {
+    font-size: 14px;
+    margin: 50% 10% 0;
+}
+
+.main-feature h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0 10%;
+}
+
+.main-feature p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 10%;
+    width: 45%;
+}
+
+#projects .side-feature {   
+    background-color: #352d2f;
+    float: right;
+    height: 275px;
+    width: 50%;
+}
+
+.side-feature h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 20% 10% 0;
+}
+
+.side-feature p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 10%;
+    width: 45%;
+}
+
+#projects .side-feature:nth-child(3) {
+    background-color: #30282a;
+}
+
+#projects .bottom-feature {
+    background-color: #30282a;
+    clear: both;
+    height: 50px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.bottom-feature a {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 14%;
+}
+
+#info {
+    background-color: #fafafa;
+    padding: 3% 0;
+}
+
+#info div {
+    display: inline-block;
+    width: 35%;
+    margin-left: 7%;
+}
+
+#info div:first-child {
+    margin-left: 10%;
+}
+
+#info i {
+    color: #f63c3c;
+}
+
+#info h3 {
+    margin: 0;   
+}
+
+#info p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 11px;
+    margin-top: 0;
+}
+
+#social {
+    background-color: #fafafa;
+    padding: 3% 0;
+}
+
+#social > div {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#social h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+#social p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 11px;
+    margin: 0 0 1%;
+}
+
+#social > div {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#social-icons > a {
+    background-color: #30282a;
+    color: #fff;
+    display: inline-block;
+    padding: 50px 95px;
+    text-align: center;
+}
+
+#social-icons > a:nth-child(n+2) {
+    margin-left: 2%;
+}
+
+#social h3 {
+    margin: 0;
+}
+
+#contact {
+    background-color: #30282a;
+    padding: 150px;
+}
+
+#contact div {
+    background-color: #f63c3c;
+    color: #fff;
+    margin: 0 auto;
+    padding: 45px 25px;
+    text-align: center;
+    width: 35%;
+}
+
+#contact i {
+    margin: 1% 0;
+}
+
+#contact address {
+    font-size: 14px;
+}
+
+#contact span {
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin: 2% 0 1%;
+}
+
+#contact a {
+    color: #fff;
+}
+
+footer {
+    margin: 0 auto;
+    padding: 0 0 3%;
+    width: 65%;
+}
+
+footer > div.col-25 {
+    float: left;
+    margin: 3%;
+    width: 20%;
+}
+
+footer h3 {
+    margin-left: 0;
+}
+
+footer > div > hr {
+    border: 3px solid #000;
+}
+
+footer ul {
+    font-size: 12px;
+}
+
+footer li {
+    padding: 1% 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer > div.col-50 {
+    float: left;
+    margin: 3% 0;
+    width: 45%;
+}
+
+div.col-50 > ul {
+    float: left;
+    width: 50%;
+}
+
+footer > hr {
+    border: 1px solid #000;
+    clear: left;
+    margin-top: 25px;
+}
+
+footer div:last-child {
+    clear: both;
+}
+
+footer span {
+    font-size: 12px;
+}
+
+footer div:last-child ul {
+    float: right;
+}
+
+footer ul.terms li {
+    padding: 0 15px;
+}
+
+footer div:last-child li {
+    display: inline-block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
