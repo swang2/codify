@@ -146,6 +146,50 @@ footer p a {
     border-radius: 50%;
 }
 
+@media (max-width: 454px) {
+    nav ul {
+        padding: 13px;
+    }
+}
+
+@media (max-width: 428px) {
+    nav ul {
+        padding: 13px;        
+    }
+}
+
+@media (max-width: 710px) {
+    .features {
+        text-align: center;
+    }
+
+    .item {
+        margin: 25px 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    nav .logo {
+        padding-left: 10px;
+        margin-top: 30px;
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    nav ul {
+        padding-right: 0px;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

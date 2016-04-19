@@ -18,6 +18,24 @@ body {
 	font-size: 13px;
 }
 
+.topNav #initial {
+    background: #339966;
+    border-radius: 100%;
+    float: right;
+    display: none;
+    height: 12px;
+    width: 12px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    margin-left: 12px;
+}
+
+.topNav #initial a {
+	color: white;
+	font-size: 16px;
+}
+
 .topNav li a {
 	position: relative;
 	top: -3px;
@@ -64,7 +82,7 @@ a {
 }
 
 .searchBox input {
-	width: 600px;
+	width: 70%;
 	margin: 0 auto;
 	padding: 5px;
 	border: 1px solid #d9d9d9;
@@ -131,6 +149,50 @@ a {
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+
+/*media queries*/
+@media (max-width: 650px) {
+	.searchBox input {
+		width: 70%;
+	}
+}
+
+@media (max-width: 550px) {
+	.left, .right {
+		padding: 0;
+	}
+
+	.topNav li {
+		padding: 12px;
+	}
+
+	.topNav li:first-child,
+	.topNav li:nth-child(2),
+	.topNav li:nth-child(3), 
+	.topNav li:nth-child(6),
+	.topNav li:nth-child(7)  {
+		display: none;
+	}
+
+	.topNav #initial {
+		display: inline-block;
+	} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
