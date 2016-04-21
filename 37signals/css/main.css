@@ -39,8 +39,10 @@ header {
 
 header, section {
     margin: 30px auto;
-    width: 825px;
+    width: 64%;
     display: block;
+    text-align: center;
+    height: initial;
 }
 
 header h1 {
@@ -59,24 +61,22 @@ header p {
 }
 
 .products {
-	text-align: center;
-	height: 320px;
-	padding-bottom: 30px;
-	margin: 0 285px;
+    text-align: center;
+    height: 347px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .products a {
     position: relative;
-    top: 40px;
-    left: 75px;
-    width: 160px;
-    margin: 15px 20px 5px;
-    float: left;
+    width: 20%;
+    margin: 15px 20px;
     border: 1px solid #E8E8E8;
     border-radius: 5px;
     box-shadow: 0 0 5px #EFEFEF;
     padding: 20px 10px;
     text-decoration: none;
+    display: inline-block;
 }
 
 a {
@@ -93,6 +93,10 @@ a {
 
 .products h3 span {
 	text-decoration: underline;
+}
+
+.products img {
+    width: 100%;
 }
 
 sup {
@@ -126,18 +130,18 @@ hr {
 .customers {
     margin-bottom: 50px;
     position: relative;
-    width: 800px;
-	text-align: center;  
-    letter-spacing: -1px;	  
+    width: 66%;
+    text-align: center;
+    letter-spacing: -1px;  
 }
 
 .customers h2 {
-	color: #232323;
+    color: #232323;
     font-size: 48px;
     line-height: 1.1em;
-    letter-spacing: -1px;
     text-align: center;
     margin-bottom: 0;
+    width: 89%;
 }
 
 .meet {
@@ -165,6 +169,10 @@ hr {
     margin-bottom: 20px;
     text-align: left;
     margin-top: 0;
+}
+
+.customers img {
+    width: 100%;
 }
 
 .meet p {
@@ -240,6 +248,7 @@ hr {
 .rework {
 	height: 500px;
 	position: relative;
+    width: 61%;
 }
 
 .rework h2 {
@@ -366,6 +375,86 @@ footer p {
     margin-top: 50px;	
 }
 
+@media (max-width: 574px) {
+    nav ul li:nth-child(3),
+    nav ul li:nth-child(4) {
+        display: none;
+    }
 
+    .products {
+        height: 300px;
+    }  
+}
+
+@media (max-width: 682px) {
+    .rework {
+        height: 1300px;
+    }    
+}
+
+@media (max-width: 783px) {
+    .products {
+        height: 270px;
+    }
+
+    .products a {
+        margin: 15px;
+    }
+
+    .products h3 {
+        display: none;
+    }    
+}
+
+@media (max-width: 1052px) {
+    .products p,
+    .products h4,
+    .products sup {
+        display: none;
+    }
+
+    .customers img {
+        display: none;
+    }
+}
+
+@media (max-width: 1090px) {
+    .meet {
+        display: none;
+    }
+
+    .rework {
+        height: 700px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .rework {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 1248px) {
+    .arrow-left {
+        display: none;
+    }
+}
+
+@media (max-width: 1216px) {
+    .arrow-right {
+        display: none;
+    }
+}
+
+@media (max-width: 545px) {
+    .crumple {
+        display: none;
+    }
+
+    .rework {
+        height: 1500px;
+    } 
+}
 
 
