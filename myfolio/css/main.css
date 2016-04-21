@@ -31,9 +31,10 @@ nav > a > span {
 }
 
 nav > ul {
-    position: absolute;
-    right: 25px;
+    position: relative;
     top: 5px;
+    float: right;
+    right: 10px;
 }
 
 nav > ul > li {
@@ -50,6 +51,11 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover, nav > ul > li > a:focus {
     color: #cfc91d;
+}
+
+.topNav li:last-child {
+    display: none;
+    right: 300px;
 }
 
 header {
@@ -245,6 +251,10 @@ section {
     font-size: 14px;
 }
 
+.menu {
+    display: none;
+}
+
 footer {
     width: 100%;
     padding: 10px 0;
@@ -255,6 +265,33 @@ footer p {
     color: #7e8287;
     text-align: center;
 }
+
+
+@media (max-width: 635px) {
+
+    .topNav li:first-child,
+    .topNav li:nth-child(2),
+    .topNav li:nth-child(3),
+    .topNav li:nth-child(4) {
+        display: none;
+    }
+
+    .topNav li:last-child {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 763px) {
+    .service .serviceWrapper {
+        width: 100%;
+    }    
+
+    .service .serviceBox {
+        width: 50%;
+    }
+}
+
+
 
 
 
