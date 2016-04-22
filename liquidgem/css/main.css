@@ -39,6 +39,10 @@ nav li {
     display: inline-block;
 }
 
+nav #menu {
+    display: none;
+}
+
 nav li a {
     color:  #2D2D2D;
     text-decoration: none;
@@ -94,7 +98,8 @@ header span {
 
 .dashboard {
     height: 575px;
-    padding: 0 50px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .dashboard .img-container {
@@ -107,7 +112,7 @@ header span {
 }
 
 .dashboard .img-container img {
-    width: 212px;
+    width: 100%;
     height: 157px;
     border-radius: 20px 20px 0 0;
 }
@@ -220,12 +225,102 @@ footer a {
 .buttons i {
     color: #2D2D2D;
     position: relative;
-    bottom: 13px;
-}    
+    bottom: 13px; 
 }
 
+@media (max-width: 1188px) {
+    .dashboard {
+        width: 70%;
+        height: 1110px;
+    }
 
+    .dashboard .img-container {
+    width: 33%;
+    margin: 0px;
+    }
+}
 
+@media (max-width: 948px) {
+    .dashboard {
+        width: 62%;
+        height: 1240px;
+    }    
+
+    .dashboard .img-container {
+        width: 45%;
+        margin: 10px;
+    }
+
+}
+
+@media (max-width: 872px) {
+    .dashboard .img-container {   
+        width: 45%;
+    }
+
+    .footer-right ul {
+        margin-top: 50px;
+    }
+
+    .footer-right li {
+        display: block;
+    }    
+
+    .buttons {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 743px) {
+    .dashboard {
+        height: 1380px;
+    }
+}
+
+@media (max-width: 700px) {
+    .left, .right {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 696px) {
+    .dashboard {
+        height: 2655px;
+        width: 50%;
+    } 
+
+    .dashboard .img-container {
+        width: 100%;
+        margin-bottom: 5px;
+    }          
+}
+
+@media (max-width: 653px) {
+    nav #menu {
+        display: inline-block;
+    }
+
+    nav li:nth-child(2),
+    nav li:nth-child(3), 
+    nav li:nth-child(4),       
+    nav li:nth-child(5) {
+        display: none;
+    }    
+}
+
+@media (max-width: 428px) {
+/*    .dashboard .img-container {
+        width: 100%;
+        margin-bottom: 5px;
+    }  */ 
+
+/*    .dashboard {
+        height: 2655px;
+    } */
+}
 
 
 
