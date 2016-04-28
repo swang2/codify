@@ -1,0 +1,253 @@
+%!Adobe-FontList 1.15
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue
+FamilyName:Helvetica Neue
+StyleName:Regular
+FullName:Helvetica Neue
+MenuName:Helvetica Neue
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeue.ttf
+DataFormat:sfntData
+FileLength:127848
+FileModTime:1386306828
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Helvetica Neue
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-Bold
+FamilyName:Helvetica Neue
+StyleName:Bold
+FullName:Helvetica Neue Bold
+MenuName:Helvetica Neue
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeueBold.ttf
+DataFormat:sfntData
+FileLength:135312
+FileModTime:1386306828
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Helvetica Neue Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-BoldItalic
+FamilyName:Helvetica Neue
+StyleName:Bold Italic
+FullName:Helvetica Neue Bold Italic
+MenuName:Helvetica Neue
+StyleBits:3
+FamilyNameNative:
+StyleNameNative:Bold Italic
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeueBoldItalic.ttf
+DataFormat:sfntData
+FileLength:125532
+FileModTime:1386306829
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Helvetica Neue Bold Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-CondensedBlack
+FamilyName:Helvetica Neue
+StyleName:Condensed Black
+FullName:Helvetica Neue Condensed Black
+MenuName:Helvetica Neue
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Condensed Black
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeueCondensedBlack.ttf
+DataFormat:sfntData
+FileLength:129956
+FileModTime:1386306829
+WeightClass:900
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Helvetica Neue Condensed Black
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-CondensedBold
+FamilyName:Helvetica Neue
+StyleName:Condensed Bold
+FullName:Helvetica Neue Condensed Bold
+MenuName:Helvetica Neue
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Condensed Bold
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeueCondensedBold.ttf
+DataFormat:sfntData
+FileLength:132060
+FileModTime:1386306829
+WeightClass:700
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Helvetica Neue Condensed Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-Italic
+FamilyName:Helvetica Neue
+StyleName:Italic
+FullName:Helvetica Neue Italic
+MenuName:Helvetica Neue
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeueItalic.ttf
+DataFormat:sfntData
+FileLength:126636
+FileModTime:1386306829
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Helvetica Neue Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-Light
+FamilyName:Helvetica Neue
+StyleName:Light
+FullName:Helvetica Neue Light
+MenuName:Helvetica Neue
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Light
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeueLight.ttf
+DataFormat:sfntData
+FileLength:127072
+FileModTime:1386306829
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Helvetica Neue Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-LightItalic
+FamilyName:Helvetica Neue
+StyleName:Light Italic
+FullName:Helvetica Neue Light Italic
+MenuName:Helvetica Neue
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Light Italic
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeueLightItalic.ttf
+DataFormat:sfntData
+FileLength:129056
+FileModTime:1386306829
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Helvetica Neue Light Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-Medium
+FamilyName:Helvetica Neue
+StyleName:Medium
+FullName:Helvetica Neue Medium
+MenuName:Helvetica Neue
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeueMedium.ttf
+DataFormat:sfntData
+FileLength:121592
+FileModTime:1386306829
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Helvetica Neue Medium
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-UltraLight
+FamilyName:Helvetica Neue
+StyleName:UltraLight
+FullName:Helvetica Neue UltraLight
+MenuName:Helvetica Neue
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:UltraLight
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeueUltraLight.ttf
+DataFormat:sfntData
+FileLength:123688
+FileModTime:1386306829
+WeightClass:100
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Helvetica Neue UltraLight
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeue-UltraLightItalic
+FamilyName:Helvetica Neue
+StyleName:UltraLight Italic
+FullName:Helvetica Neue UltraLight Italic
+MenuName:Helvetica Neue
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:UltraLight Italic
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Users\Kyle\Dropbox\Design\Font\HelveticaNeueUltraLightItalic.ttf
+DataFormat:sfntData
+FileLength:116532
+FileModTime:1386306829
+WeightClass:100
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Helvetica Neue UltraLight Italic
+%EndFont
+
