@@ -1,0 +1,113 @@
+.navbar-brand span.red {
+	color: #C9020A;
+    font-weight: 700;
+    font-size: 30px;	
+}
+
+.navbar-brand span.yellow {
+	color: #ED0;
+    font-weight: 700;
+    font-size: 30px;	
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #ED0;	
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #C9020A;
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+div.selector {
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    font-size: 14px;
+    background: #fff !important;
+    width: 49.5%;
+    margin-bottom: 1em;
+    outline: none;
+    display: inline-block;     
+}
+
+div.selector select {
+    background-color: #fff;
+    border: none;
+    background: none;
+    width: 90%;
+    height: 45px;
+    margin: 0 auto;   
+}
+
+div.selector option {
+	color: #ccc;
+}
+
+/*#foods {
+	width: 50%;
+	float: left;
+}
+*/
+/*#foods figure {
+	width: 50%;
+}*/
+
+#fig1 {
+    background: url(../images/tartare.jpg) no-repeat;
+    overflow: hidden;
+    height: 304px;
+    background-size: 136%;
+    background-position: 71% 0px;
+    cursor: default;
+}
+
+#fig2 {
+    background: url(../images/sashimi.jpg) no-repeat;
+    overflow: hidden;
+    height: 304px;
+    background-size: 100%;
+    background-position: 0 -22px;
+    cursor: default;    
+}
+
+#fig3 {
+    background: url(../images/glass.jpg) no-repeat;
+    overflow: hidden;
+    height: 304px;
+    background-size: 100%;
+    background-position: 100% -10px;
+    cursor: default;    
+}
+
+#fig4 {
+    background: url(../images/firecracker.jpg) no-repeat;
+    overflow: hidden;
+    height: 304px;
+    background-size: 113%;
+    background-position: 33% 0px;
+    cursor: default;    
+}
+
+#fig5 {
+    background: url(../images/cheesecake.jpg) no-repeat;
+    overflow: hidden;
+    height: 304px;
+    background-size: 113%;
+    background-position: 26%;
+    cursor: default;    
+}
+
+#fig6 {
+    background: url(../images/thing.jpg) no-repeat;
+    overflow: hidden;
+    height: 304px;
+    background-size: 100%;
+    cursor: default;    
+}
+
+
