@@ -1,15 +1,34 @@
 body {
     width: 100%;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1) ), url(../img/background.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url(../img/background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'Lato', sans-serif;
 }
 
+input {
+    font-size: 30px;
+    margin: 45px auto;
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    box-shadow: none;
+    border: none;
+    font-family: 'Lato' sans-serif;
+    color: black;
+    width: 38%;
+}
+
+::-webkit-input-placeholder {
+    color: #585050;
+}
+
 .wrapper {
     perspective: 1000px;
     display: block;
-    margin-bottom: 1000px;
+    margin-bottom: 655px;
+    position: relative;
+    top: 40px;
 }
 
 .shape {

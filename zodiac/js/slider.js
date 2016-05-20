@@ -8,15 +8,16 @@
 var sign = document.getElementById('input1').value;
 
 if (sign == "pisces") {	
+
+
+	console.log(sign);
+}
+
 		$('#boton').click(function() {
 			$('.overlay').css('visibility','visible').click(function() {
 				$('.overlay').css('visibility','hidden');
 			});
 		});
-
-	console.log(sign);
-}
-
 
 // $(document).ready(function(){
 
