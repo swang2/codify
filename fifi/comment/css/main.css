@@ -1,0 +1,120 @@
+body {
+	width: 100%;
+    font-family: 'Lato', sans-serif;	
+}
+
+.wrapper {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form {
+    padding: 30px 40px;
+    margin: 0 0 35px;
+    background: #f0f0f0;
+    border-radius: 0;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    color: #252525;
+}
+
+input.username, textarea.post {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+input.username {
+    margin-bottom: 20px;
+}
+
+textarea.post {
+    margin-bottom: 25px;
+}
+
+.btn, .show {
+    font-size: 18px;
+    background: #32A19C;
+    padding: 8px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover, .show:hover {
+	background: #37B1AC;
+	color: white;
+	text-decoration: none;	
+}
+
+.show {
+    width: 90%;
+    display: block;
+    padding-left: 15px;
+}
+
+.comment {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.comment img {
+	width: 7%;
+	border-radius: 50%;
+}
+
+.comment h4 {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    font-size: 20px;
+    position: relative;
+    top: -7px;
+}
+
+.comment p {
+    padding: 10px 10px 10px 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.comment small {
+    float: right;
+    position: relative;
+    top: -12px;
+    right: 0px;
+}
+
+.comment:nth-child(odd) {
+    background: white;
+    border: 1px solid #32A19C;
+}
+
+.comment:nth-child(even) {
+    background: #32A19C;
+    color: white;
+}
+
+.comment .remove {
+    text-decoration: none;
+    float: right;
+    position: relative;
+    right: -5.7em;
+    top: -4.6em;
+    font-size: 20px;	
+}
+
+.comment:nth-child(odd) .remove {
+	color: #32A19C;
+}
+
+.comment:nth-child(even) .remove {
+	color: white;
+}
+
+
+
+
+

@@ -1,0 +1,438 @@
+@media (min-width: 991px) {
+	.nav-type-2 .navigation-overlay.sticky .navbar-nav > .active > a:after {
+	    border-bottom: 2px solid #e60000 !important;
+	}
+}
+
+.main-layer {
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+/*.tp-caption.hero-text sup {
+  font-size: 50%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -1.5em;  
+}
+
+sup {
+
+}*/
+
+#higher {
+    margin-bottom: 10px !important;
+}
+
+#lower {
+    margin-top: 70px !important;
+}
+
+.bg-text {
+    margin-top: 70px !important;
+    font-size: 58px !important;
+}
+
+.red {
+    color: #e60000 !important;    
+}
+
+span.red {
+    color: #e60000 !important;
+}
+
+li.active a.outer {
+	text-decoration: line-through;
+	color: #e60000;
+}
+
+span.inner {
+	color: white;
+}
+
+
+.hero-text.strikethrough {
+    color: #e60000 !important;
+}
+
+#back-to-top:hover {
+    background-color: #e60000 !important;
+}
+
+.v-line:before {
+    background-color: #e60000 !important;
+}
+
+.owl-page.active span, .flex-control-paging li a.flex-active, .flickity-page-dots .dot.is-selected {
+    box-shadow: 0 0 0 1px #e60000 !important;
+}
+
+.owl-page span:after, .owl-page.active span:after, .flex-control-paging li a:after, .flex-control-paging li a.flex-active:after, .flickity-page-dots .dot:after, .flickity-page-dots .dot.is-selected:after {
+    background-color: #e60000 !important;
+}
+
+.h-line:before {
+    background-color: #e60000 !important;
+}
+
+.service-item-box a {
+    color: #e60000 !important;
+}
+
+.about-wrapper {
+    position: relative;
+}
+
+.about-me {
+    background: #e60000;
+    color: white;
+    padding: 25px 30px;
+}
+
+.about-me:before {
+    content: '';
+    position: absolute;
+    top: 296px;
+    right: 646px;
+    border-bottom: 25px solid white;
+    border-right: 25px solid transparent;
+    width: 0;
+}
+
+.about-detail {
+    background: #181c21;
+    color: white;
+    padding: 25px 30px;   
+}
+
+.about-detail:before {
+    content: '';
+    position: absolute;
+    top: 321px;
+    right: 646px;
+    border-top: 25px solid white;
+    border-right: 25px solid transparent;
+    width: 0;
+}
+
+.about-detail i {
+    margin-right: 10px;
+}
+
+
+.intro {
+	padding: 0;
+}
+
+.typed {
+    color: #e60000;
+    font-size: 84px;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    top: 50%;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+.intro p strong {
+    color: white;
+}
+
+
+.lead-text {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.fixed {
+    width: 130px;
+    display: inline-block;
+}
+
+.block-section {
+    /*background: #ffffff;*/
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.shape-bottom {
+    z-index: 2;
+    position: relative;
+}
+
+.shape-bottom:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #181c21;
+    /*border: 1px solid #ebebeb;*/
+    z-index: 1;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.block-title {
+    padding: 40px 0;
+    z-index: 3;
+    position: relative;
+    /*border-top: 1px solid #ebebeb;*/
+    /*border-bottom: 1px solid #ebebeb;*/
+    text-align: center;
+}
+
+#dark {
+	border-bottom: 1px solid #181c21;
+}
+
+.container-medium {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    position: relative;
+    z-index: 1;
+    background: white;
+}
+
+.list-employment, .list-education {
+    padding: 50px 0;
+    margin: 0;
+    position: relative;
+}
+
+.list-employment:before, .list-education:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: #ebebeb;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-employment li:nth-child(odd), .list-education li:nth-child(odd) {
+    float: right;
+    text-align: left;
+}
+
+.list-employment li, .list-education li {
+    width: 50%;
+    clear: both;
+    float: left;
+    text-align: right;
+    position: relative;
+}
+
+.list-employment li:nth-child(odd) .ic, .list-education li:nth-child(odd) .ic {
+    left: 10px;
+    top: 23px;
+}
+
+.list-employment li:nth-child(odd) .number, .list-education li:nth-child(odd) .number {
+    left: -128px;
+    right: inherit;
+}
+
+.list-employment li:nth-child(odd) .desc, .list-education li:nth-child(odd) .desc {
+    padding-right: 0;
+    padding-left: 60px;
+}
+
+.list-employment li .desc, .list-education li .desc {
+    padding: 20px;
+    padding-right: 60px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.list-employment li .ic, .list-education li .ic {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    /*background: #000000;*/
+	color: #ebebeb;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    transition: color .4s ease-in-out;    
+}
+
+.list-employment li .ic i, .list-education li .ic i {
+	font-size: 30px;
+}
+
+.list-employment li .number, .list-education li .number {
+    position: absolute;
+    font-style: italic;
+    right: -128px;
+    left: inherit;
+    padding-bottom: 10px;
+    font-size: 70px;
+    top: 10px;
+    color: #ebebeb;
+    line-height: 70px;
+    transition: color .4s ease-in-out;    
+}
+
+
+.list-employment li .desc, .list-education li .desc {
+    padding: 20px;
+    padding-right: 60px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.list-employment li:hover .number,
+.list-employment li:hover .ic
+ {
+	color: #e60000;
+}
+
+.bg-red {
+	background: #e60000;
+	color: white;
+}
+
+.bg-red:before {
+	background: #e60000;	
+}
+
+.bg-red .v-line:before {
+    background-color: #000000 !important;
+}
+
+.list-education li:hover .number,
+.list-education li:hover .ic
+ {
+	color: #000000;
+}
+
+.bg-light {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    background: #ebebeb;
+}
+
+.bg-light:before {
+    border-bottom: 1px solid #ebebeb;
+    background: #ebebeb;
+}
+
+.skill {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.skill .box {
+    text-align: center;
+    border: 1px solid transparent;
+    padding-bottom: 30px;
+}
+
+.skill.top .box {
+    padding-top: 50px;
+}
+
+.br-bottom {
+    border-bottom: 1px solid #ebebeb !important;
+}
+
+.br-right {
+    border-right: 1px solid #ebebeb !important;
+}
+
+.chart-wrapper {
+    position:relative;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 110px;
+    height: 110px;
+    display: inline-block;    
+}
+
+canvas {
+    /*display: block;*/
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+porcentaje {
+    color: #181c21;
+    display: inline-block;
+    line-height: 110px;
+    font-size: 13px;
+}
+
+section {
+	z-index: 3;
+}
+
+.bg-md-dark {
+    background: #242424;
+}
+
+.owl-prev, .flex-direction-nav .flex-prev, .flickity-prev-next-button.previous {
+    left: -30px;
+}
+
+.owl-next, .flex-direction-nav .flex-next, .flickity-prev-next-button.next {
+    right: -30px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    border-bottom: 2px solid #8e9298;
+}
+
+.input-bar:before, .input-bar:after {
+    background: #e60000;
+}
+
+.btn-transparent:hover, .btn.btn-stroke:hover, .btn.btn-light:hover, .btn.btn-dark:hover {
+    background: #e60000;
+}
+
+.footer {
+    background: #181c21;
+}
+
+div.module.parallax {
+  height: initial;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("http://eskipaper.com/images/dark-forest-9.jpg"); 
+  /*background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/04/Teal-wallpapers-HD-dark-forest.png");  */
+}
+
+@media (min-width: 991px) {
+    .nav-type-2 .navbar-nav > li:last-child > a {
+        padding-right: 20px;
+    }
+}
