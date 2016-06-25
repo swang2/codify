@@ -1,0 +1,69 @@
+body {
+    background: #191919;
+}
+
+h1 {
+	font-family: 'Droid Sans', sans-serif;
+	color: #a5adb0;
+	text-align: center;
+}
+
+.box {
+    background: #a5adb0;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.clock {
+    background: #191919;
+    color: white;
+    width: 470px;
+    margin: auto;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#clock,
+#day,
+#date,
+#diem {
+    color: #a5adb0;
+    font-family: 'Droid Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#clock {
+    top: 185px;
+    font-size: 65px;
+}
+
+#date {
+    top: 325px;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+

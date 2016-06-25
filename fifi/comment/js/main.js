@@ -1,4 +1,3 @@
-
 function formatDate(date) {
   var hours = date.getHours();
   var minutes = date.getMinutes();
@@ -33,3 +32,17 @@ $(document).ready(function(){
 		});
     });
 });
+
+document.body.onload = addElement;
+
+function addElement () { 
+  // create a new div element 
+  // and give it some content 
+  var newDiv = document.createElement("div"); 
+  var newContent = document.createTextNode("Hi there and greetings!"); 
+  newDiv.appendChild(newContent); //add the text node to the newly created div. 
+
+  // add the newly created element and its content into the DOM 
+  var currentDiv = document.getElementById("username"); 
+  // document.body.insertBefore(newDiv, currentDiv); 
+}

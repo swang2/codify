@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>	
+
+<!-- 6. use .value to retrieve input data from a form -->
+	<form>
+		<h2>login</h2>
+		<input placeholder="what's your name?" id="username">
+		<input placeholder="password" id="password">
+		<button type="button" onclick="getInfo()">login</button>
+	</form>
+
+	<form>
+		<h2>Regsiter</h2>
+		<input placeholder="newUsername" id="newUsername">
+		<p id="userValidator"></p>		
+		<input placeholder="newPassword" id="newPassword">
+		<p id="passValidator"></p>
+		<button type="button" onclick="register()">register</button>
+	</form>
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>
