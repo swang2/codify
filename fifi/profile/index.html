@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">	
+	<link rel="stylesheet" type="text/css" href="css/main.css">	
+</head>
+<body>
+	<div class="form-container">
+		<div id="inputs">
+		</div>
+		<form class="profile-form" id="form">
+			<h1>Create Your Profile</h1>
+			<div id="warnings"></div>
+			<div class="left">
+				<div class="list-basic">
+					<input type="text" name="firstName" placeholder="First Name" required />
+					<input type="text" name="lastName" placeholder="Last Name" required>
+					<input type="text" name="phone" placeholder="Phone" required>
+					<input type="email" name="email" placeholder="Email" required>
+				</div>
+				<div class="list-continent">
+					<h3>Where were you born?</h3>
+					<div class="continent-option">
+						<input type="radio" id="c0" name="continent" value="North America">
+						<label for="c0"><span></span>North America</label>												
+					</div>
+					<div class="continent-option">					
+						<input type="radio" id="c1" name="continent" value="South America"> 
+						<label for="c1"><span></span>South America</label>							
+					</div>
+					<div class="continent-option">					
+						<input type="radio" id="c2" name="continent" value="Europe"> 
+						<label for="c2"><span></span>Europe</label>							
+					</div>
+					<div class="continent-option">					
+						<input type="radio" id="c3" name="continent" value="Asia"> 
+						<label for="c3"><span></span>Asia</label>							
+					</div>
+					<div class="continent-option">					
+						<input type="radio" id="c4" name="continent" value="Africa"> 
+						<label for="c4"><span></span>Africa</label>							
+					</div>
+					<div class="continent-option">					
+						<input type="radio" id="c5" name="continent" value="Antartica"> 
+						<label for="c5"><span></span>Antartica</label>							
+					</div>
+				</div>
+			</div>
+			<div class="right">				
+				<div class="list-gender">
+					<h3 class="inline-title">Gender:</h3>
+					<div class="gender-option">
+						<input type="radio" id="g0" name="gender" value="Male"> 
+						<label for="g0"><span></span>Male</label>
+					</div>
+					<div class="gender-option">					
+						<input type="radio" id="g1" name="gender" value="Female"> 
+						<label for="g1"><span></span>Female</label>
+					</div>
+					<div class="gender-option">					
+						<input type="radio" id="g2" name="gender" value="Other"> 
+						<label for="g2"><span></span>Other</label>
+					</div>
+				</div>
+				<div class="list-gender">
+					<h3 class="inline-title">Pick a Color:</h3>
+					<div class="gender-option">					
+						<input type="radio" id="co0" name="color" value="Red">		
+						<label for="co0"><span></span>Red</label>
+					</div>
+					<div class="gender-option">					
+						<input type="radio" id="co1" name="color" value="Green">
+						<label for="co1"><span></span>Green</label>
+					</div>
+					<div class="gender-option">						
+						<input type="radio" id="co2" name="color" value="Blue">
+						<label for="co2"><span></span>Blue</label>
+					</div>
+				</div>
+				<div class="list-bio">
+					<h3 class="inline-title">Short Bio</h3>
+					<small>(Maximum 140 characters)</small>
+					<textarea name="bio" placeholder="A little bit about yourself" rows="4"></textarea>
+				</div>
+			</div>		
+		</form>
+		<button id="submit" class="btn-submit">SUBMIT</button>
+	</div>
+
+
+
+</body>
+	<script src="js/main.js"></script>
+</html>
